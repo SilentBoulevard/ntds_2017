@@ -3,8 +3,8 @@
 [![Binder](https://mybinder.org/badge.svg)][binder_lab]
 &nbsp; (Jupyter [lab][binder_lab] or [notebook][binder_notebook])
 
-[binder_lab]: https://mybinder.org/v2/gh/mdeff/ntds_2017/master?urlpath=lab
-[binder_notebook]: https://mybinder.org/v2/gh/mdeff/ntds_2017/master?urlpath=tree
+[binder_lab]: https://mybinder.org/v2/gh/mdeff/ntds_2017/outputs?urlpath=lab
+[binder_notebook]: https://mybinder.org/v2/gh/mdeff/ntds_2017/outputs?urlpath=tree
 
 This repository contains the material for the labs associated with the EPFL
 master course [EE-558 A Network Tour of Data Science][epfl] ([moodle]), taught
@@ -90,7 +90,8 @@ to install it and create an environment for the course.
 Every time you want to work, do the following:
 
 1. Open a terminal. Windows: open the Anaconda Prompt from the Start menu.
-1. Activate the environment with `conda activate ntds_2017`.
+1. Activate the environment with `conda activate ntds_2017`
+   (or `activate ntds_2017`, or `source activate ntds_2017`).
 1. Start Jupyter with `jupyter notebook` or `jupyter lab`. The command should
    open a new tab in your web browser.
 1. Edit and run the notebooks from your browser.
